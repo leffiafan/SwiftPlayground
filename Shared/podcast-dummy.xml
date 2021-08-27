@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
+	<channel>
+		<item>
+			<title><![CDATA[This is podcast Title 1]]></title>
+			<enclosure url="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg"/>
+			<itunes:image href="https://randomwordgenerator.com/img/picture-generator/54e4d4444251ab14f1dc8460962e33791c3ad6e04e50744172297ed2934ccc_640.jpg"/>
+		</item>
+		<item>
+			<title><![CDATA[This is podcast Title 2]]></title>
+			<enclosure url="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_1MG.mp3" type="audio/mpeg"/>
+			<itunes:image href="https://randomwordgenerator.com/img/picture-generator/52e5d64a4c52a514f1dc8460962e33791c3ad6e04e507440772872dc914ec7_640.jpg"/>
+		</item>
+		<item>
+			<title><![CDATA[This is podcast Title 3]]></title>
+			<enclosure url="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_2MG.mp3" type="audio/mpeg"/>
+			<itunes:image href="https://randomwordgenerator.com/img/picture-generator/57e8d4474a51ae14f1dc8460962e33791c3ad6e04e507440742a7ad19e49cc_640.jpg"/>
+		</item>
+	</channel>
+</rss>

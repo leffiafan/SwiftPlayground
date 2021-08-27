@@ -36,21 +36,21 @@ class PodcastParser: NSObject, XMLParserDelegate, ObservableObject {
 //                }
 //            }
 //        }
-        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-            guard let data = data else { return }
-            print("----> xml: \(String(data: data, encoding: .utf8))")
-                let parser = XMLParser(data: data)
-                parser.delegate = self
-                parser.parse()
-                self.loading = false
-        }
-        task.resume()
+//        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+//            guard let data = data else { return }
+//            print("----> xml: \(String(data: data, encoding: .utf8))")
+//                let parser = XMLParser(data: data)
+//                parser.delegate = self
+//                parser.parse()
+//                self.loading = false
+//        }
+//        task.resume()
         
-        /*if let parser = XMLParser(contentsOf: url) {
+        if let parser = XMLParser(contentsOf: url) {
             parser.delegate = self
             parser.parse()
             self.loading = false
-        }*/
+        }
     }
     
     // 1
