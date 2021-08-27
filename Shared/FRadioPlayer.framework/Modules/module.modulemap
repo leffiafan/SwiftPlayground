@@ -1,0 +1,11 @@
+framework module FRadioPlayer {
+  umbrella header "FRadioPlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module FRadioPlayer.Swift {
+    header "FRadioPlayer-Swift.h"
+    requires objc
+}
