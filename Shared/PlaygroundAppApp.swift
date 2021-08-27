@@ -2,7 +2,6 @@
 //  PlaygroundAppApp.swift
 //  Shared
 //
-//  Created by Lev Tseytlin on 25.08.21.
 //
 
 import SwiftUI

@@ -2,7 +2,6 @@
 //  PodcastParser.swift
 //  PlaygroundApp
 //
-//  Created by Lev Tseytlin on 26.08.21.
 //
 
 import SwiftUI
