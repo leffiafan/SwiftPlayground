@@ -21,7 +21,7 @@ class PodcastParser: NSObject, XMLParserDelegate, ObservableObject {
         
         self.loading = true
         
-        guard let url:URL = URL(string: "https://") else {
+        guard let url:URL = URL(string: "https://raw.githubusercontent.com/leffiafan/SwiftPlayground/main/Shared/podcast-dummy.xml") else {
             print("Error on create URL to read file")
             return
         }
